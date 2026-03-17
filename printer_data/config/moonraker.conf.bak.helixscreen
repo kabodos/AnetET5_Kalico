@@ -51,3 +51,27 @@ path: ~/klipper-backup
 origin: https://github.com/Staubgeborener/klipper-backup.git
 managed_services: moonraker
 primary_branch: main
+
+# HelixScreen Update Manager
+# Added by HelixScreen installer - enables one-click updates from Mainsail/Fluidd
+# NOTE: type: web is used instead of type: zip as a workaround for
+# mainsail-crew/mainsail#2444 (zip type always shows UP-TO-DATE).
+# A systemd path unit handles service restart after Moonraker extracts the update.
+[update_manager helixscreen]
+type: web
+channel: stable
+repo: prestonbrown/helixscreen
+path: /home/joaquin/helixscreen
+persistent_files:
+    config/helixconfig.json
+    config/helixscreen.env
+    config/.disabled_services
+
+[update_manager KlipperScreen]
+install_script: /home/joaquin/KlipperScreen/scripts/KlipperScreen-install.sh
+requirements: /home/joaquin/KlipperScreen/scripts/KlipperScreen-requirements.txt
+env: /home/joaquin/.KlipperScreen-env/bin/python
+managed_services: KlipperScreen
+origin: https://github.com/KlipperScreen/KlipperScreen.git
+path: /home/joaquin/KlipperScreen
+type: git_repo
