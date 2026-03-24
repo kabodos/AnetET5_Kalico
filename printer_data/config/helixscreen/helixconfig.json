@@ -155,11 +155,11 @@
             "rowspan": 2
           },
           {
-            "col": -1,
+            "col": 2,
             "colspan": 1,
-            "enabled": false,
+            "enabled": true,
             "id": "shutdown",
-            "row": -1,
+            "row": 3,
             "rowspan": 1
           },
           {
@@ -294,7 +294,7 @@
             "col": -1,
             "colspan": 1,
             "enabled": false,
-            "id": "favorite_macro_1",
+            "id": "favorite_macro:1",
             "row": -1,
             "rowspan": 1
           },
@@ -302,7 +302,7 @@
             "col": -1,
             "colspan": 1,
             "enabled": false,
-            "id": "favorite_macro_2",
+            "id": "favorite_macro:2",
             "row": -1,
             "rowspan": 1
           },
@@ -310,7 +310,7 @@
             "col": -1,
             "colspan": 1,
             "enabled": false,
-            "id": "favorite_macro_3",
+            "id": "favorite_macro:3",
             "row": -1,
             "rowspan": 1
           },
@@ -318,7 +318,7 @@
             "col": -1,
             "colspan": 1,
             "enabled": false,
-            "id": "favorite_macro_4",
+            "id": "favorite_macro:4",
             "row": -1,
             "rowspan": 1
           },
@@ -326,7 +326,7 @@
             "col": -1,
             "colspan": 1,
             "enabled": false,
-            "id": "favorite_macro_5",
+            "id": "favorite_macro:5",
             "row": -1,
             "rowspan": 1
           },
