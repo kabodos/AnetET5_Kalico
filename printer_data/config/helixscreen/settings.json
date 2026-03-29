@@ -46,6 +46,13 @@
         },
         "timestamp": 1774572458,
         "total": 80
+      },
+      {
+        "phases": {
+          "3": 110
+        },
+        "timestamp": 1774638128,
+        "total": 110
       }
     ]
   },
@@ -110,7 +117,7 @@
             "temperature_sensor btt_eddy_mcu",
             "temperature_sensor btt_eddy"
           ],
-          "timestamp": "2026-03-27T18:12:47Z"
+          "timestamp": "2026-03-27T18:20:08Z"
         },
         "optional": [
           "neopixel phoenix_led"
