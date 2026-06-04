@@ -1,6 +1,6 @@
 {
   "active_printer_id": "default",
-  "config_version": 9,
+  "config_version": 10,
   "dark_mode": true,
   "display": {
     "bed_mesh_render_mode": 0,
@@ -117,7 +117,7 @@
             "temperature_sensor btt_eddy_mcu",
             "temperature_sensor btt_eddy"
           ],
-          "timestamp": "2026-04-03T07:33:40Z"
+          "timestamp": "2026-04-03T07:42:54Z"
         },
         "optional": [
           "neopixel phoenix_led"
@@ -203,8 +203,12 @@
                 {
                   "col": -1,
                   "colspan": 1,
+                  "config": {
+                    "device": "__all__",
+                    "icon": "power_cycle"
+                  },
                   "enabled": false,
-                  "id": "power",
+                  "id": "power_device:1",
                   "row": -1,
                   "rowspan": 1
                 },
