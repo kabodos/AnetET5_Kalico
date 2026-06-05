@@ -1,6 +1,6 @@
 {
   "active_printer_id": "default",
-  "config_version": 10,
+  "config_version": 17,
   "dark_mode": true,
   "display": {
     "bed_mesh_render_mode": 0,
@@ -41,16 +41,12 @@
   "print_start_history": {
     "entries": [
       {
-        "phases": {
-          "3": 80
-        },
+        "phases": {},
         "timestamp": 1774572458,
         "total": 80
       },
       {
-        "phases": {
-          "3": 110
-        },
+        "phases": {},
         "timestamp": 1774638128,
         "total": 110
       }
@@ -117,7 +113,7 @@
             "temperature_sensor btt_eddy_mcu",
             "temperature_sensor btt_eddy"
           ],
-          "timestamp": "2026-04-03T07:42:54Z"
+          "timestamp": "2026-06-04T21:15:28Z"
         },
         "optional": [
           "neopixel phoenix_led"
@@ -140,6 +136,7 @@
         ],
         "last_brightness": 100,
         "last_color": "#FFFFFF",
+        "last_white": null,
         "led_on_at_start": false,
         "macro_devices": [],
         "selected": [],
@@ -451,6 +448,9 @@
       },
       "printer_image": "custom:anet et5prov2",
       "printer_name": "Anet ET5  Pro",
+      "probe_sensors": {
+        "sensors": null
+      },
       "temp_sensors": {
         "bed": "heater_bed",
         "hotend": "extruder"
@@ -463,6 +463,10 @@
   "telemetry_enabled": true,
   "theme": {
     "preset": 0
+  },
+  "tour": {
+    "completed": true,
+    "last_seen_version": 1
   },
   "ui": {
     "cached_grid": {
