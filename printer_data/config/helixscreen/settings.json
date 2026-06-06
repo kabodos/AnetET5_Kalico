@@ -113,7 +113,7 @@
             "temperature_sensor btt_eddy_mcu",
             "temperature_sensor btt_eddy"
           ],
-          "timestamp": "2026-06-04T21:15:28Z"
+          "timestamp": "2026-06-05T05:25:48Z"
         },
         "optional": [
           "neopixel phoenix_led"
